@@ -1,9 +1,4 @@
-# Repository template
+# Create new entry in Notion LogBook
 
-## Features
-
-The repository is spawned with
-
-* Renovate config file
-* Super Linter that runs on every push
-* Checkov that runs on PR or push on Main when in /terraform or workflow file
+This scripts adds a new entry in a Database in Notion.
+The aim is to use it to create a new daily entry in a LogBook.
