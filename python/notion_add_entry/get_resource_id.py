@@ -14,6 +14,7 @@ def get_id(token, name):
         "page_size": 4,
         "query": name,
         "filter": {"value": "database", "property": "object"},
+    }
     headers = {
         "Accept": "application/json",
         "Notion-Version": "2022-06-28",
