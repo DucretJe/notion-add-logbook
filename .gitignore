@@ -1,4 +1,6 @@
 # python venv
 /bin
 /lib
+/include
 pyvenv.cfg
+/python/notion_add_entry/__pycache__
