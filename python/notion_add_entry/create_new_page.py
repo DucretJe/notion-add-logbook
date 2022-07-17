@@ -1,8 +1,9 @@
 # coding=utf-8
 
+from datetime import date
+
 import requests
 
-from datetime import date
 
 def compute_title():
     """
@@ -16,6 +17,7 @@ def compute_title():
     title = m + " " + d
     return title
 
+
 def new_entry(token, id):
     """
     Add new entry with date as title
@@ -26,16 +28,7 @@ def new_entry(token, id):
             # "type": "database_id",
             "database_id": "e07a5c87-55b0-4d73-b126-65efa40d0bfc",
         },
-        "properties": {
-		    "Name": {
-			    "title": [
-				    {
-					"text": {
-						"content": compute_title()
-					}
-				}]
-            }
-		},
+        "properties": {"Name": {"title": [{"text": {"content": compute_title()}}]}},
     }  
     headers = {
         "Accept": "application/json",
