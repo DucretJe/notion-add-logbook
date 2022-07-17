@@ -45,7 +45,3 @@ def new_entry(token, id):
     }
     r = requests.post(url, json=payload, headers=headers)
     return r.text
-
-# print(compute_title())
-print(new_entry("secret_O8dEegCu4NHtXGHTDpYOBDU73vArGbUMldUZ5guVIHW", "e07a5c87-55b0-4d73-b126-65efa40d0bfc"))
-
