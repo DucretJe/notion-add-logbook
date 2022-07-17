@@ -29,7 +29,7 @@ def new_entry(token, id):
             "database_id": "e07a5c87-55b0-4d73-b126-65efa40d0bfc",
         },
         "properties": {"Name": {"title": [{"text": {"content": compute_title()}}]}},
-    }  
+    }
     headers = {
         "Accept": "application/json",
         "Notion-Version": "2022-06-28",
